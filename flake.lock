@@ -1,0 +1,45 @@
+{
+  "nodes": {
+    "flint": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1676621354,
+        "narHash": "sha256-8HbPrmSTZI5EsFHvyo+VYt6nG+IGe2xhL41S6+CT0cI=",
+        "owner": "ukehrle",
+        "repo": "flint2",
+        "rev": "a4e08298f9d9823f3679ec2a2ac0c1c00ff46f4b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ukehrle",
+        "ref": "lll-rank-deficient",
+        "repo": "flint2",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1673163619,
+        "narHash": "sha256-B33PFBL64ZgTWgMnhFL3jgheAN/DjHPsZ1Ih3z0VE5I=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "8c54d842d9544361aac5f5b212ba04e4089e8efe",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-22.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flint": "flint",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

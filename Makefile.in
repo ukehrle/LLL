@@ -1,0 +1,9 @@
+#
+# Makefile rules for the LLL package
+#
+KEXT_NAME = LLL
+KEXT_SOURCES = src/LLL.c
+
+# include shared GAP package build system
+GAPPATH = @GAPPATH@
+include Makefile.gappkg
